@@ -1,0 +1,77 @@
+.contact
+{
+    color:blue;
+    background-color:aliceblue;
+    width: 200px;
+    border: 20 px solid green;
+    margin: 10px;
+}
+
+ul
+{
+    list-style-type: georgian;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li
+{
+    border-style: solid;
+    border-color: green;
+}
+
+ol
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.title {
+    font-family: fantasy, 'Times New Roman', serif;
+    font-size: 46px;
+    font-weight: bold;
+
+}
+
+.backOne {
+    border: 2px solid brown;
+    background-color: gray;
+    background-size: contain;
+}
+
+.caption {
+    color: brown;
+    font-family: fantasy, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: italic;
+
+}
+
+.signing-on {
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container {
+    position: center;
+    width: 100%;
+}
+
+.container:hover .image {
+    opacity: 0.5;
+}
+
+.image {
+    transition: 0.5s ease;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
